@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Antique Olive Std Nord Italic";
+    src: url('/assets/fonts/Antique\ Olive\ Std\ Nord\ Italic.otf');
+}
+
+body{
+    font-family: Antique Olive Std Nord Italic;
+    background-color: #D6D5DA;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 5em;
+    color: #FFC538;
+    -webkit-text-stroke: 2px black;
+    cursor: pointer;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav img{
+    width: 5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main .fam1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30vw;
+}
+
+main .fam2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30vw;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    h1{
+        font-size: 2.5em;
+    }
+
+    main .fam1{
+        width: 60vw;
+    }
+    
+    main .fam2{
+        width: 60vw;
+    }
+    
+}

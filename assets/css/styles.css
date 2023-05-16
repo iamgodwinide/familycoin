@@ -38,6 +38,12 @@ nav a{
 
 nav img{
     width: 5em;
+    height: 5em;
+    margin-right: 1em;
+}
+
+nav img.dex{
+    width: 3em;
 }
 
 main {
